@@ -42,7 +42,7 @@
     margin: 30px 0px;
 }
 
-.btn-primey{
+.btn-primey {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
@@ -50,6 +50,7 @@
     border-radius: 8px;
     background: #E55473;
     padding: 15px 43px;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -132,7 +133,8 @@
 
 
 }
-.section-info{
+
+.section-info {
     margin: 100px 0px;
 }
 
@@ -160,17 +162,19 @@
 }
 
 /* Shop section style */
-.shop-section{
+.shop-section {
     margin: 120px 0px 95px 0px;
 }
-.shop-content{
+
+.shop-content {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     gap: 20px;
-    
+
 }
-.shop-single{
+
+.shop-single {
     background: rgba(167, 33, 98, 0.15);
     height: 423px;
     overflow: hidden;
@@ -183,29 +187,33 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
-.shop-wrapper img{
-padding: 60px 40px 0 40px;
+
+.shop-wrapper img {
+    padding: 60px 40px 0 40px;
 
 }
-.single-shop img{
+
+.single-shop img {
     padding: 70px 76px 0px 76px;
-    
+
 }
 
-.single-shop h3{
+.single-shop h3 {
     color: #272727;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-line-height: 35px;
-margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 20px;
 }
-.single-shop h4{
+
+.single-shop h4 {
     color: #E55473;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
 }
+
 .shop-section button {
     display: block;
     margin: 0 auto;
@@ -216,96 +224,119 @@ font-weight: 500;
     color: #e55473;
     padding: 11px 30px;
     transition: 0.4s;
+    cursor: pointer;
 }
-.shop-section button:hover{
+
+.shop-section button:hover {
     background-color: #E55473;
     color: white;
 }
 
 /* Hot deal */
 
-.hot-deal{
-background: rgba(229, 84, 115, 0.05);
-margin-bottom: 100px;
-align-items: center;
+.hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 100px;
+    align-items: center;
 }
-.hot-deal-wrapper{
+
+.hot-deal-wrapper {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center !important;
     padding: 80px 0px;
-  
+
 }
 
-.hot-content h2{
+.hot-content h2 {
     color: #272727;
     font-size: 35px;
     font-weight: 800;
 }
-.hot-content span{
+
+.hot-content span {
     color: #E55473;
 }
-.hot-content p{
+
+.hot-content p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-width: 594px;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 25px 0px 24px 0px;
+    text-align: center;
+    width: 594px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0px 24px 0px;
 }
-.hot-content h3{
- color: #E55473;
-font-family: Ephesis;
-font-size: 40px;
-font-weight: 400;
+
+.hot-content h3 {
+    color: #E55473;
+    font-family: Ephesis;
+    font-size: 40px;
+    font-weight: 400;
 }
-.timer-wrapper{
+
+.timer-wrapper {
     display: flex;
     gap: 15px;
     margin: 32px 0px 40px 0px;
     justify-content: center;
 }
-.single-timer{
+
+.single-timer {
     border-radius: 4px;
     background: #FFF;
     padding: 15px 10px;
 }
-.single-timer h2{color: #272727;text-align: center;font-family: Lato;font-size: 22px;font-weight: 800;padding: 5px 16px;}
 
-.single-timer small{
+.single-timer h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 5px 16px;
+}
+
+.single-timer small {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
-.single-timer hr{
+
+.single-timer hr {
     border-color: rgba(0, 0, 0, 0.10);
 }
 
-    .single-timer.single-red {
-        background: rgba(229, 84, 115, 0.05);
-        border: 2px solid #E55473;
+.single-timer.single-red {
+    background: rgba(229, 84, 115, 0.05);
+    border: 2px solid #E55473;
 }
-.single-timer.single-red  hr{
+
+.single-timer.single-red hr {
     border-color: #E55473;
 }
-.single-timer.single-red h2, .single-timer.single-red small{
+
+.single-timer.single-red h2,
+.single-timer.single-red small {
     color: #E55473;
 }
+
 .single-timer.single-red {
     background: rgba(229, 84, 115, 0.05);
 }
+
 /* Instagram style */
 
-.instagram-wrapper{
+.instagram-wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    
+
 }
-.instagram-wrapper img{
+
+.instagram-wrapper img {
     width: 270px;
 }
 
@@ -323,12 +354,14 @@ font-weight: 400;
     padding: 90px 0px;
     margin: 100px 0px;
     border-radius: 8px;
-  }
-  .newsletter-des{
+}
+
+.newsletter-des {
     padding-top: 7px;
     margin-bottom: 30px;
-  }
-  form input[type='email']{
+}
+
+form input[type='email'] {
     border-radius: 8px;
     background: #FFF;
     height: 32px;
@@ -337,24 +370,28 @@ font-weight: 400;
     width: 400px;
     margin-right: 10px;
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-  }
-  .footer{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer {
     background: #111010;
     padding: 128px 0px;
-  }
-.footer h2{
+}
+
+.footer h2 {
     color: #E55473;
-font-size: 48px;
-font-weight: 700;
+    font-size: 48px;
+    font-weight: 700;
 
 }
-.footer h2 span{
+
+.footer h2 span {
     color: #FFF;
 }
-.footer p{
+
+.footer p {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
@@ -362,13 +399,15 @@ font-weight: 700;
     line-height: 30px;
     padding-top: 24px;
 }
-.footer-icon{
+
+.footer-icon {
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.footer-icon i{
+
+.footer-icon i {
     color: #fff;
     size: 20px;
 }
@@ -376,11 +415,13 @@ font-weight: 700;
 .footer-icon img {
     padding: 0px 10px;
     width: 30px;
+    cursor: pointer;
 }
-.footer-copyright{
+
+.footer-copyright {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
