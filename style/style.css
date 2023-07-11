@@ -308,6 +308,36 @@ font-weight: 400;
 .instagram-wrapper img{
     width: 270px;
 }
-.instagram{
-    margin-bottom: 100px;
-}
+
+
+/* News Letter section */
+
+.newsletter-wrapper {
+    background-image: url('../image/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    margin: 100px 0px;
+    border-radius: 8px;
+  }
+  .newsletter-des{
+    padding-top: 7px;
+    margin-bottom: 30px;
+  }
+  form input[type='email']{
+    border-radius: 8px;
+    background: #FFF;
+    height: 32px;
+    border: none;
+    padding: 10px 30px;
+    width: 400px;
+    margin-right: 10px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+  }
